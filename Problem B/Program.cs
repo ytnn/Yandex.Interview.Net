@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
 public class Solution
 {
     public static void Main(string[] args)
@@ -33,5 +38,5 @@ public class Solution
 
     private static void SkipFirstElement() => GetCurrentElement();
 
-    private static string? GetCurrentElement() => Console.ReadLine();
+    private static string GetCurrentElement() => Console.ReadLine();
 }
